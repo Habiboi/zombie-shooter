@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824aca80e37cdcc479b94051810c7932, type: 3}
+  m_Name: Gun 1
+  m_EditorClassIdentifier: 
+  gunName: Bubblegun
+  gunSprite: {fileID: 21300000, guid: 2b5446976344dc140852f2b0c7562cab, type: 3}
+  gunPrefab: {fileID: 1586542106310140508, guid: e894e8fd9ed03294c902ce47da477e25, type: 3}
+  bulletPrefab: {fileID: 7548769662951564859, guid: 2f00473522525c44492a12af0df9945c, type: 3}
+  bulletPoint: {fileID: 0}
+  bulletTime: 0.05
+  baseBulletCount: 200
+  bulletDamage: 20
+  currentBulletCount: 0

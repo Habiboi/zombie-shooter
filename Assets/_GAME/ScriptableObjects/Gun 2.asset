@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824aca80e37cdcc479b94051810c7932, type: 3}
+  m_Name: Gun 2
+  m_EditorClassIdentifier: 
+  gunName: Gunnie
+  gunSprite: {fileID: 21300000, guid: c1129c40f91d0a54bb73c563d4fa2c62, type: 3}
+  gunPrefab: {fileID: 1586542106310140508, guid: 478c4dc88f5a03f4fbb5b1b42b845d56, type: 3}
+  bulletPrefab: {fileID: 7548769662951564859, guid: 2f68e2fc7b2e7fa43b49b8ccbf99e843, type: 3}
+  bulletPoint: {fileID: 0}
+  bulletTime: 0.2
+  baseBulletCount: 50
+  bulletDamage: 50
+  currentBulletCount: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824aca80e37cdcc479b94051810c7932, type: 3}
+  m_Name: Gun 0
+  m_EditorClassIdentifier: 
+  gunName: Slimey
+  gunSprite: {fileID: 21300000, guid: 480c05d9a9f89c849b4fcc2448d490b4, type: 3}
+  gunPrefab: {fileID: 1586542106310140508, guid: 3806e218ffa406a419259cb7ab90d39e, type: 3}
+  bulletPrefab: {fileID: 7548769662951564859, guid: e0d51ee154ae1ec4e8a914c309678611, type: 3}
+  bulletPoint: {fileID: 0}
+  bulletTime: 0.1
+  baseBulletCount: 100
+  bulletDamage: 25
+  currentBulletCount: 0
